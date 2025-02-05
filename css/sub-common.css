@@ -199,6 +199,54 @@
 }
 /* about end */
 
+/* s.more */
+.more {
+  background: var(--Darck-100);
+  height: 46.7rem;
+  margin: 0;
+}
+
+.more-con {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.more-title h4 {
+  padding-top: 11.5rem;
+  font-weight: 800;
+  font-size: 4rem;
+  color: var(--Light-100);
+  padding-bottom: 4rem;
+
+  font-size: clamp(2.5rem, 2.0833vw, 4rem);
+}
+
+.c-more-btn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  width: 25.7rem;
+  padding: 2.5rem 5rem;
+  border-radius: 10rem;
+
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--Light-100);
+  background: var(--btn);
+
+  font-size: clamp(1.6rem, 1.302vw, 2.5rem);
+}
+
+.c-more-btn:hover {
+  color: var(--Light-100);
+  background: var(--main-color);
+}
+/* e.more */
+
 @media (max-width: 400px) {
   .about-con li :last-child {
     margin-bottom: 2.5rem;

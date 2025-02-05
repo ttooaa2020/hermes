@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/sub-common.css" />
     <link rel="stylesheet" href="./css/main.css" />
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <!-- 모바일용 메뉴 -->
     <div class="mobile-menu">
-      <!-- strong.mobile-logo>i.hidden{webfluen} -->
-
       <strong class="mobile-logo"> <i class="hidden">에르메스</i></strong>
       <ul class="mobile-gnb">
         <li><a href="index.html">홈</a></li>
@@ -23,17 +25,13 @@
         <li><a href="store.html">매장 찾기</a></li>
       </ul>
 
-      <!-- button:button.btn-close>i.hidden{close} -->
-      <button type="button" class="btn-close">
+      <button type="button" class="mobile-btn-close">
         <i class="hidden">close</i>
       </button>
     </div>
 
-    <!-- header#header+main#main+footer#footer -->
-
     <!-- s. header -->
     <header id="header">
-      <!-- .inner>nav>h1.logo+ul.gnb+.join+.login -->
       <div class="inner">
         <nav>
           <h1 class="logo">
@@ -54,9 +52,9 @@
               <a class="login" href="login.html">로그인</a>
             </div>
 
-            <div class="mobile-btn">
+            <button type="button" class="mobile-btn">
               <a href="#"><i class="hidden">더보기</i></a>
-            </div>
+            </button>
           </div>
         </nav>
       </div>
@@ -80,7 +78,7 @@
       <!-- s.event -->
       <section class="event">
         <div class="inner">
-          <ul class="event-list">
+          <ul class="event-list event-list-1">
             <li>
               <a href="">
                 <figure>
@@ -127,7 +125,7 @@
             </li>
           </ul>
 
-          <ul class="event-list">
+          <ul class="event-list event-list-2">
             <li>
               <a href="">
                 <figure>
@@ -241,7 +239,7 @@
                 </figure>
 
                 <dl class="event-text">
-                  <dt>Brides de Gala en Fleurs 스카프 90</dt>
+                  <dt>Brides de Gala en Fleurs <br />스카프 90</dt>
                   <dd>₩ 880,000</dd>
                 </dl>
               </a>
@@ -298,7 +296,7 @@
                 </figure>
 
                 <dl class="event-text">
-                  <dt>Heure H 워치, 스몰 모델, 25mm</dt>
+                  <dt>Heure H 워치, <br />스몰 모델, 25mm</dt>
                   <dd>₩ 880,000</dd>
                 </dl>
               </a>
@@ -313,7 +311,7 @@
                 </figure>
 
                 <dl class="event-text">
-                  <dt>Hermes Cut 워치, 라지 모델, 36mm</dt>
+                  <dt>Hermes Cut 워치, <br />라지 모델, 36mm</dt>
                   <dd>₩ 31,400,000</dd>
                 </dl>
               </a>
@@ -328,7 +326,7 @@
                 </figure>
 
                 <dl class="event-text">
-                  <dt>Hermes H08 워치, 42mm</dt>
+                  <dt>Hermes H08 워치, <br />42mm</dt>
                   <dd>₩ 23,770,000</dd>
                 </dl>
               </a>
@@ -343,7 +341,7 @@
                 </figure>
 
                 <dl class="event-text">
-                  <dt>Hermes H08 워치, 42mm</dt>
+                  <dt>Hermes H08 워치, <br />42mm</dt>
                   <dd>₩ 13,150,000</dd>
                 </dl>
               </a>

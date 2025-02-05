@@ -93,8 +93,8 @@ header nav {
 
 .logo a {
   display: block;
-  width: 14.3rem;
-  height: 8.1rem;
+  width: 15rem;
+  height: 9rem;
   background: url(https://images.onthelook.co.kr/b/qSYUNZ8HAPhbWUXbn68J6f.png)
     no-repeat 50% / contain;
 }
@@ -176,8 +176,8 @@ header nav {
   right: -100%;
   width: 70%;
   height: 100vh;
-  background: var(--main-color3);
-  color: #fff;
+  background: var(--main-color2);
+  color: var(--Light-100);
   transition: 0.4s;
 
   display: flex;
@@ -359,7 +359,7 @@ address {
 /* e.footer  */
 
 /* 반응형 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
-@media screen and (max-width: 1530px) {
+@media screen and (max-width: 1550px) {
   .gnb {
     display: none;
   }

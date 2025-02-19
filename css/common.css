@@ -85,7 +85,7 @@ header {
 
 header nav {
   display: flex;
-  height: 14.8rem;
+  height: 10rem;
   /* background: #5f5f; */
   justify-content: space-between;
   align-items: center;
@@ -157,7 +157,7 @@ header nav {
   align-items: center;
 }
 
-.mobile-btn a {
+.mobile-btn {
   display: none;
   width: 3.2rem;
   height: 0.7rem;
